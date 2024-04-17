@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(166, 185, 207);
+}
+.herotext{
+    position: absolute;
+    left: 47%;
+    top: 10%;
+    font-family: "Abel", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+#wrapper{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px 40px 20px 40px;
+    border-radius: 10px; /* Border radius on all sides */
+    box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.61); /* Box shadow */
+    
+}
+
+#card{
+    background-color: white;
+    padding: 20px 40px 20px 40px;
+    border-radius: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    display: flex;
+    
+
+}
+
+.hp{
+    padding-right: 10px;
+}
+#button button{
+    position: absolute;
+    top: 110%;
+    left: 40%;
+    padding: 10px 30px 10px 30px;
+    color:white;
+    background-color: black;
+    border-radius: 10px 10px 10px 10px;
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.image img {
+    width: 170px; /* Adjust the width as per your requirement */
+    height: auto; /* Maintain aspect ratio */
+    padding-right: 30px;
+    padding-left: 30px;
+   
+}
+.stats{
+    padding-left: 30px;
+}
